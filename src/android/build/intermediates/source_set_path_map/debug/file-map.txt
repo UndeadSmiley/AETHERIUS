@@ -1,0 +1,7 @@
+com.aetherius.android-pngs-0 /data/data/com.termux/files/home/AETHERIUS/src/android/build/generated/res/pngs/debug
+com.aetherius.android-resValues-1 /data/data/com.termux/files/home/AETHERIUS/src/android/build/generated/res/resValues/debug
+com.aetherius.android-packageDebugResources-2 /data/data/com.termux/files/home/AETHERIUS/src/android/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.aetherius.android-packageDebugResources-3 /data/data/com.termux/files/home/AETHERIUS/src/android/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.aetherius.android-merged_res-4 /data/data/com.termux/files/home/AETHERIUS/src/android/build/intermediates/merged_res/debug
+com.aetherius.android-debug-5 /data/data/com.termux/files/home/AETHERIUS/src/android/src/debug/res
+com.aetherius.android-main-6 /data/data/com.termux/files/home/AETHERIUS/src/android/src/main/res

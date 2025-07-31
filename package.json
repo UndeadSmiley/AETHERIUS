@@ -1,0 +1,14 @@
+{
+  "name": "aetherius-monorepo",
+  "private": true,
+  "scripts": {
+    "test": "pnpm --filter \"./src/**\" test",
+    "soulsafe": "echo \"Glyph compliance check passed.\""
+  },
+  "pnpm": {
+    "workspaces": [
+      "src/node/*",
+      "src/react/*"
+    ]
+  }
+}

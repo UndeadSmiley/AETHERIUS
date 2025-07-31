@@ -1,0 +1,19 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aetherius"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <application
+11-->/data/data/com.termux/files/home/AETHERIUS/src/android/src/main/AndroidManifest.xml:4:5-6:19
+12        android:debuggable="true"
+13        android:extractNativeLibs="false"
+14        android:label="AETHERIUS" >
+14-->/data/data/com.termux/files/home/AETHERIUS/src/android/src/main/AndroidManifest.xml:5:9-34
+15    </application>
+16
+17</manifest>
