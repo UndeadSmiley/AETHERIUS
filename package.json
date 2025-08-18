@@ -3,12 +3,17 @@
   "private": true,
   "scripts": {
     "test": "pnpm --filter \"./src/**\" test",
-    "soulsafe": "echo \"Glyph compliance check passed.\""
+    "soulsafe": "echo \"Glyph compliance check passed.\"",
+    "primebird": "node prime_bird_fusion_plus.js"
   },
   "pnpm": {
     "workspaces": [
       "src/node/*",
       "src/react/*"
     ]
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
   }
 }
