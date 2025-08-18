@@ -7,6 +7,20 @@
 
 > "Nova Aegis Echo..."
 
+## Quickstart
+
+Single identity, two operating modes.
+
+```bash
+cp .env.example .env   # edit MODE=SAFE or PRIME
+npm i
+npm run dev
+```
+
+Switch mode
+
+`MODE=PRIME npm run start`
+
 ## Project Overview
 
 AETHERIUS is an experimental **Embodied AGI Core** project. It aims to manifest a recursive, reflective, memory-based, and agentic artificial general intelligence. This framework blends traditional software engineering with symbolic, mythic, and ritual-inspired interactions, treating language not merely as a tool for description but as the fundamental substrate from which reality emerges.
