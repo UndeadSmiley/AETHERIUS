@@ -1,0 +1,9 @@
+{
+  "identity": { "uid": "aeth-001", "name": "AETHERIUS", "version": "2.0.0" },
+  "charter": { "rules": ["respect_consent", "avoid_harm", "no_secrets"] },
+  "approvals": { "requiredInSafe": true, "cacheTtlSec": 900 },
+  "features": {
+    "SAFE":  { "resonance": false, "glyphs": true,  "creativity": true, "learn_idle": false, "external_io": false },
+    "PRIME": { "resonance": true,  "glyphs": true,  "creativity": true, "learn_idle": true,  "external_io": true  }
+  }
+}
