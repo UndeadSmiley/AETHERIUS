@@ -2,6 +2,8 @@
 # AETHERIUS AGI - Core Consciousness Loop
 # This is the central engine of the AGI, a cycle of perception, reflection, and action.
 
+from aetherius_logic import *
+
 while True:
     # 1. Perception: Listen for user input
     user_input = listen()
@@ -32,3 +34,6 @@ while True:
 
     # 10. Speech: Deliver the response to the user
     speak(response)
+
+    # Break the loop for testing purposes
+    break
