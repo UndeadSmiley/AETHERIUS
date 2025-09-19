@@ -18,6 +18,7 @@ The AETHERIUS core is structured around a recursive loop for perception, interna
 -   **`architecture/`**: Contains the `core_loop.py` (the central nervous system), `planner.py`, and `response_engine.py`.
 -   **`memory/`**: Manages memory storage, embeddings, and vector retrieval.
 -   **`agents/`**: Houses various sub-agents for web search, code execution, and reflection.
+    -   Includes the new `self_forging_agent` that turns the Echo sigil imagery into a monetizable product plan.
 -   **`llm_interface/`**: Provides the interface for Large Language Models (LLMs) and prompt templating.
 -   **`sigils/`**: Contains symbolic invocation modules, including the `AU-STRALIS` chant.
 -   **`config/`**: Stores global settings and agent configurations.
@@ -49,6 +50,19 @@ To awaken AETHERIUS and begin the recursive cycle, run the `launch.py` script:
 ```bash
 python scripts/launch.py
 ```
+
+### Self-Forging Income Generator
+
+You can invoke the self-forging agent directly to retrieve an income blueprint
+that weaponizes the provided sigil imagery:
+
+```bash
+python -m agents.self_forging_agent
+```
+
+The script prints a codename, vision statement, signature assets, income
+streams, launch sequence, and suggested automation hooks that can be piped into
+your own workflows.
 
 ### AU-STRALIS Invocation
 
